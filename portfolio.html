@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | WingfieldGemini</title>
+    <meta name="description" content="View our premium web design portfolio. Designed from scratch, delivered with passion. 27+ successful projects across 10+ industries.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Portfolio | WingfieldGemini">
+    <meta property="og:description" content="View our premium web design portfolio. Designed from scratch, delivered with passion.">
+    <meta property="og:url" content="https://wingfieldgemini.github.io/wingfieldpsycho/portfolio.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2IDJMMjAgNkwxNiAxMEwxMiA2TDE2IDJaIiBmaWxsPSIjREMyNjI2Ii8+CjxwYXRoIGQ9Ik0xNiAzMEwxMiAyNkwxNiAyMkwyMCAyNkwxNiAzMFoiIGZpbGw9IiNEQzI2MjYiLz4KPHN2Zz4K">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 10L70 30L50 50L30 30L50 10Z" fill="currentColor"/>
+                        <path d="M50 90L30 70L50 50L70 70L50 90Z" fill="currentColor"/>
+                        <circle cx="50" cy="50" r="3" fill="currentColor"/>
+                    </svg>
+                    WingfieldGemini
+                </a>
+                
+                <nav>
+                    <ul class="nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" style="min-height: 60vh;">
+            <div class="container">
+                <div class="hero-content fade-in">
+                    <span class="section-label">Portfolio</span>
+                    <h1>Designed from scratch, delivered with passion</h1>
+                    <p class="hero-subtitle">
+                        Every project tells a story of transformation. From initial concept to final launch, we create digital experiences that drive real business results for our clients.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials fade-in">
+            <div class="container">
+                <div class="testimonial-carousel">
+                    <div class="testimonial active">
+                        <blockquote>
+                            "WingfieldGemini transformed our online presence completely. The new website not only looks stunning but has increased our enquiries by 150%. Their attention to detail and understanding of our industry is exceptional."
+                        </blockquote>
+                        <cite>— Sarah Mitchell, Owner of Auckland Boutique Hotel</cite>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <blockquote>
+                            "Working with Samuel was a game-changer for our automotive business. The new site perfectly captures our premium service offering, and the CRM system has streamlined our entire customer process."
+                        </blockquote>
+                        <cite>— David Chen, Director of Elite Auto Services</cite>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <blockquote>
+                            "As a real estate agency, first impressions matter. WingfieldGemini delivered a website that positions us as the premium choice in our market. The results speak for themselves - we've seen a 200% increase in quality leads."
+                        </blockquote>
+                        <cite>— Lisa Thompson, Principal of Thompson Realty</cite>
+                    </div>
+                    
+                    <div class="testimonial-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Filter Section -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2>Our Work</h2>
+                    <p class="text-lg">Explore our diverse portfolio of successful projects across multiple industries.</p>
+                </div>
+                
+                <!-- Filter Buttons -->
+                <div class="portfolio-filters fade-in">
+                    <!-- Type Filters -->
+                    <button class="filter-btn active" data-filter="*">All Projects</button>
+                    <button class="filter-btn" data-filter="website">Websites</button>
+                    <button class="filter-btn" data-filter="brand">Brand</button>
+                    <button class="filter-btn" data-filter="digital-product">Digital Products</button>
+                    
+                    <!-- Category Filters -->
+                    <button class="filter-btn" data-filter="hospitality">Hospitality</button>
+                    <button class="filter-btn" data-filter="automotive">Automotive</button>
+                    <button class="filter-btn" data-filter="real-estate">Real Estate</button>
+                    <button class="filter-btn" data-filter="nightlife">Nightlife</button>
+                    <button class="filter-btn" data-filter="services">Services</button>
+                    <button class="filter-btn" data-filter="health-beauty">Health & Beauty</button>
+                    <button class="filter-btn" data-filter="retail">Retail</button>
+                </div>
+                
+                <!-- Portfolio Grid -->
+                <div class="portfolio-grid fade-in">
+                    <!-- IDN Property Bali -->
+                    <div class="portfolio-item" data-category="real-estate" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #3B82F6, #1E40AF);">IDN Property Bali</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">IDN Property Bali</h3>
+                            <p class="portfolio-item-category">Real Estate • Website</p>
+                            <a href="https://wingfieldgemini.github.io/idnproprety/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Bisous Bisous Club -->
+                    <div class="portfolio-item" data-category="nightlife" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #8B5CF6, #5B21B6);">Bisous Bisous Club</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">Bisous Bisous Club</h3>
+                            <p class="portfolio-item-category">Nightlife • Website</p>
+                            <a href="https://wingfieldgemini.github.io/Bisousbisousclub/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Glass Protect -->
+                    <div class="portfolio-item" data-category="automotive" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #10B981, #059669);">Glass Protect</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">Glass Protect</h3>
+                            <p class="portfolio-item-category">Automotive • Website</p>
+                            <a href="https://wingfieldgemini.github.io/glassprotect/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Meridian & Co Real Estate -->
+                    <div class="portfolio-item" data-category="real-estate" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #F59E0B, #D97706);">Meridian & Co Real Estate</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">Meridian & Co Real Estate</h3>
+                            <p class="portfolio-item-category">Real Estate • Website</p>
+                            <a href="https://realestatetemplate.github.io/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Apex Auto -->
+                    <div class="portfolio-item" data-category="automotive" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #EF4444, #DC2626);">Apex Auto</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">Apex Auto</h3>
+                            <p class="portfolio-item-category">Automotive • Website</p>
+                            <a href="https://automechanicstemplatev3.github.io/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- BeatGirls -->
+                    <div class="portfolio-item" data-category="brand" data-type="brand">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #EC4899, #DB2777);">BeatGirls</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">BeatGirls</h3>
+                            <p class="portfolio-item-category">Brand • Digital Identity</p>
+                            <a href="https://jackieprototypetemplate.github.io/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Coral Drift Bali -->
+                    <div class="portfolio-item" data-category="hospitality" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #06B6D4, #0891B2);">Coral Drift Bali</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">Coral Drift Bali</h3>
+                            <p class="portfolio-item-category">Hospitality • Website</p>
+                            <a href="https://wingfieldgemini.github.io/snorkeling-template/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Mamasa Bike Rental -->
+                    <div class="portfolio-item" data-category="hospitality" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #84CC16, #65A30D);">Mamasa Bike Rental</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">Mamasa Bike Rental</h3>
+                            <p class="portfolio-item-category">Hospitality • Website</p>
+                            <a href="https://wingfieldgemini.github.io/mamasabikerental/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- ClearFlow Plumbers -->
+                    <div class="portfolio-item" data-category="services" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #3B82F6, #2563EB);">ClearFlow Plumbers</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">ClearFlow Plumbers</h3>
+                            <p class="portfolio-item-category">Services • Website</p>
+                            <a href="https://wingfieldgemini.github.io/plumberstemplatev2/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Verdant Landscaping -->
+                    <div class="portfolio-item" data-category="services" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #22C55E, #16A34A);">Verdant Landscaping</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">Verdant Landscaping</h3>
+                            <p class="portfolio-item-category">Services • Website</p>
+                            <a href="https://wingfieldgemini.github.io/landscapingtemplatev2/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- ChromaCoat Painters -->
+                    <div class="portfolio-item" data-category="services" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #F97316, #EA580C);">ChromaCoat Painters</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">ChromaCoat Painters</h3>
+                            <p class="portfolio-item-category">Services • Website</p>
+                            <a href="https://painterstemplate.github.io/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Electricians v2 -->
+                    <div class="portfolio-item" data-category="services" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #FBBF24, #F59E0B);">Premier Electrical</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">Premier Electrical</h3>
+                            <p class="portfolio-item-category">Services • Website</p>
+                            <a href="https://wingfieldgemini.github.io/electricianstemplatev2/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Restaurant -->
+                    <div class="portfolio-item" data-category="hospitality" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #DC2626, #B91C1C);">Bella Vista Restaurant</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">Bella Vista Restaurant</h3>
+                            <p class="portfolio-item-category">Hospitality • Website</p>
+                            <a href="https://wingfieldgemini.github.io/restauranttemplate/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- DJ Template -->
+                    <div class="portfolio-item" data-category="brand" data-type="brand">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #7C3AED, #6D28D9);">DJ Portfolio</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">DJ Portfolio</h3>
+                            <p class="portfolio-item-category">Brand • Digital Identity</p>
+                            <a href="https://wingfieldgemini.github.io/djtemplate/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Gym Template -->
+                    <div class="portfolio-item" data-category="health-beauty" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #DC2626, #B91C1C);">Premium Fitness</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">Premium Fitness</h3>
+                            <p class="portfolio-item-category">Health & Beauty • Website</p>
+                            <a href="https://wingfieldgemini.github.io/gymtemplate/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Photography -->
+                    <div class="portfolio-item" data-category="brand" data-type="brand">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #6B7280, #4B5563);">Photography Studio</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">Photography Studio</h3>
+                            <p class="portfolio-item-category">Brand • Digital Portfolio</p>
+                            <a href="https://wingfieldgemini.github.io/photographytemplate/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Tattoo Studio -->
+                    <div class="portfolio-item" data-category="health-beauty" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #1F2937, #111827);">Ink & Soul Tattoo</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">Ink & Soul Tattoo</h3>
+                            <p class="portfolio-item-category">Health & Beauty • Website</p>
+                            <a href="https://wingfieldgemini.github.io/tattoostudiotemplate/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Hairdressers v2 -->
+                    <div class="portfolio-item" data-category="health-beauty" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #F472B6, #EC4899);">Elegant Hair Studio</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">Elegant Hair Studio</h3>
+                            <p class="portfolio-item-category">Health & Beauty • Website</p>
+                            <a href="https://wingfieldgemini.github.io/hairdresserstemplatev2/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Cleaning Services -->
+                    <div class="portfolio-item" data-category="services" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #06B6D4, #0891B2);">Sparkle Clean</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">Sparkle Clean</h3>
+                            <p class="portfolio-item-category">Services • Website</p>
+                            <a href="https://cleaningservicestemplate.github.io/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Builders v2 -->
+                    <div class="portfolio-item" data-category="services" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #92400E, #78350F);">Master Builders</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">Master Builders</h3>
+                            <p class="portfolio-item-category">Services • Website</p>
+                            <a href="https://wingfieldgemini.github.io/builderstemplatev2/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Café/Takeaway -->
+                    <div class="portfolio-item" data-category="hospitality" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #92400E, #78350F);">Corner Café</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">Corner Café</h3>
+                            <p class="portfolio-item-category">Hospitality • Website</p>
+                            <a href="https://cafetakeaways.github.io/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Local Retail -->
+                    <div class="portfolio-item" data-category="retail" data-type="website">
+                        <div class="portfolio-item-image" style="background: linear-gradient(135deg, #7C2D12, #6B2710);">Kōwhai Collective</div>
+                        <div class="portfolio-item-overlay">
+                            <h3 class="portfolio-item-title">Kōwhai Collective</h3>
+                            <p class="portfolio-item-category">Retail • Website</p>
+                            <a href="https://localretailtemplate.github.io/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section">
+            <div class="container">
+                <div class="text-center fade-in">
+                    <h2>Ready for your digital transformation?</h2>
+                    <p class="text-lg" style="margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                        Join our portfolio of successful businesses. Let's create something extraordinary together.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+                        <a href="services.html" class="btn btn-outline">View Services</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WingfieldGemini</h3>
+                    <p>Twin Wings: Two Paths, One Infinite Digital Destination</p>
+                    <p>Premium web design and digital solutions for ambitious businesses.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul style="list-style: none;">
+                        <li><a href="services.html#web-design">Web Design</a></li>
+                        <li><a href="services.html#crm">CRM Systems</a></li>
+                        <li><a href="services.html#hosting">Hosting & Security</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul style="list-style: none;">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>📞 +64 27 256 6620</p>
+                    <p>✉️ admin@wingfieldgemini.com</p>
+                    <p>📍 Wellington, New Zealand</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 WingfieldGemini. All rights reserved. Built with precision and passion.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" title="Back to top">↑</button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
