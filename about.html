@@ -1,387 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | WingfieldGemini</title>
-    <meta name="description" content="Meet the team behind WingfieldGemini. Our story, values, and commitment to creating premium digital experiences for ambitious businesses.">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="About Us | WingfieldGemini">
-    <meta property="og:description" content="Meet the team behind WingfieldGemini. Our story, values, and commitment to premium digital experiences.">
-    <meta property="og:url" content="https://wingfieldgemini.github.io/wingfieldpsycho/about.html">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2IDJMMjAgNkwxNiAxMEwxMiA2TDE2IDJaIiBmaWxsPSIjREMyNjI2Ii8+CjxwYXRoIGQ9Ik0xNiAzMEwxMiAyNkwxNiAyMkwyMCAyNkwxNiAzMFoiIGZpbGw9IiNEQzI2MjYiLz4KPHN2Zz4K">
-    
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — WingfieldGemini</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <a href="index.html" class="logo">
-                    <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M50 10L70 30L50 50L30 30L50 10Z" fill="currentColor"/>
-                        <path d="M50 90L30 70L50 50L70 70L50 90Z" fill="currentColor"/>
-                        <circle cx="50" cy="50" r="3" fill="currentColor"/>
-                    </svg>
-                    WingfieldGemini
-                </a>
-                
-                <nav>
-                    <ul class="nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-                
-                <button class="mobile-menu-btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-        </div>
-        
-        <nav class="mobile-nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<div class="loader" id="loader"><svg class="loader-phoenix" viewBox="0 0 100 100" fill="none"><path d="M50 15 L42 35 L30 28 L38 42 L20 45 L38 48 L30 62 L42 55 L50 75 L58 55 L70 62 L62 48 L80 45 L62 42 L70 28 L58 35 Z" fill="#DC2626" opacity="0.9"/></svg></div>
 
-    <!-- Main Content -->
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" style="min-height: 60vh;">
-            <div class="container">
-                <div class="hero-content fade-in">
-                    <span class="section-label">About WingfieldGemini</span>
-                    <h1>Twin Wings: Two Paths, One Infinite Digital Destination</h1>
-                    <p class="hero-subtitle">
-                        We believe every business deserves a digital presence that reflects their ambition. Since our founding, we've been dedicated to creating premium web experiences that drive real results.
-                    </p>
-                </div>
-            </div>
-        </section>
+<nav class="nav" id="nav"><div class="nav-inner"><a href="index.html" class="nav-logo"><span class="nav-logo-icon">✦</span><span>WingfieldGemini</span></a><div class="nav-links" id="navLinks"><a href="index.html">Home</a><a href="portfolio.html">Portfolio</a><a href="services.html">Services</a><a href="about.html" class="active">About</a><a href="contact.html" class="nav-cta">Start a Project</a></div><button class="nav-burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></div></nav>
 
-        <!-- Our Story Section -->
-        <section class="section">
-            <div class="container">
-                <div class="grid grid-2" style="align-items: center; gap: 4rem;">
-                    <div class="fade-in">
-                        <span class="section-label">Our Story</span>
-                        <h2>Born from frustration, driven by excellence</h2>
-                        <p class="text-lg">WingfieldGemini was born from a simple frustration: too many businesses were settling for cookie-cutter websites that failed to capture their unique value proposition.</p>
-                        
-                        <p>Founded in Wellington, New Zealand, we set out with a mission to bridge the gap between ambitious business owners and the premium digital presence they deserved. Our name reflects our dual approach—Twin Wings representing the perfect balance between creative design and technical excellence, Two Paths symbolizing the journey we take with each client from concept to success.</p>
-                        
-                        <p>Today, we've helped over 27 businesses across 10+ industries transform their digital presence and achieve measurable growth. Every project teaches us something new, every client pushes us to be better, and every success story fuels our passion for what we do.</p>
-                        
-                        <p>We're not just building websites—we're crafting digital experiences that excite, inspire, and convert. Because in a world full of mediocre online experiences, exceptional stands out.</p>
-                    </div>
-                    
-                    <div class="fade-in">
-                        <div class="card" style="background: linear-gradient(145deg, #1a1a1a, #0d0d0d); border: 1px solid var(--color-red);">
-                            <h3>Our Mission</h3>
-                            <p style="font-family: var(--font-serif); font-style: italic; font-size: 1.125rem; color: var(--color-gray-200);">
-                                "To empower ambitious businesses with digital experiences that don't just meet expectations—they shatter them. We believe every business has a unique story worth telling, and we're here to help them tell it in the most compelling way possible."
-                            </p>
-                            
-                            <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1);">
-                                <h4 class="text-red">What Drives Us</h4>
-                                <ul style="margin: 1rem 0; padding-left: 1.5rem; color: var(--color-gray-300); line-height: 1.8;">
-                                    <li>Obsessive attention to detail</li>
-                                    <li>Relentless pursuit of excellence</li>
-                                    <li>Genuine care for our clients' success</li>
-                                    <li>Continuous learning and innovation</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section class="about-hero">
+  <div class="container">
+    <div class="about-hero-inner">
+      <div class="anim-up">
+        <span class="section-label">About Us</span>
+        <h1>Built on passion,<br>driven by <em>precision</em></h1>
+        <p style="margin-top: 24px;">WingfieldGemini is a digital services agency founded by Samuel H. Wingfield in Wellington, New Zealand. We specialise in premium web design, CRM systems, and managed hosting for small businesses who want to stand out — not blend in.</p>
+        <p style="margin-top: 16px;">Every project starts with a conversation and ends with a digital presence that makes our clients proud. We don't do templates. We don't do generic. We build from scratch, obsess over details, and deliver work that speaks for itself.</p>
+      </div>
+      <div class="about-visual anim-up" style="--d:0.2s;">
+        <svg viewBox="0 0 100 100" fill="none" style="width:160px;opacity:0.15;">
+          <path d="M50 15 L42 35 L30 28 L38 42 L20 45 L38 48 L30 62 L42 55 L50 75 L58 55 L70 62 L62 48 L80 45 L62 42 L70 28 L58 35 Z" fill="#DC2626"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- Values Section -->
-        <section class="section" style="background: linear-gradient(145deg, #1a1a1a, #0d0d0d);">
-            <div class="container">
-                <div class="section-header fade-in">
-                    <span class="section-label">Our Values</span>
-                    <h2>The principles that guide everything we do</h2>
-                    <p class="text-lg">These aren't just words on a wall—they're the foundation of every decision we make and every project we deliver.</p>
-                </div>
-                
-                <div class="grid grid-3 fade-in">
-                    <div class="card">
-                        <h3 class="text-red">Excellence Over Everything</h3>
-                        <p>We don't believe in "good enough." Every pixel is placed with intention, every line of code is crafted with care, and every user experience is designed to delight. Our clients deserve nothing less than exceptional.</p>
-                    </div>
-                    
-                    <div class="card">
-                        <h3 class="text-red">Partnership, Not Just Service</h3>
-                        <p>We're not just vendors—we're your digital transformation partners. Your success is our success, your challenges become our challenges, and your vision becomes our mission. We're in this together.</p>
-                    </div>
-                    
-                    <div class="card">
-                        <h3 class="text-red">Innovation Through Restraint</h3>
-                        <p>True innovation isn't about using every new technology—it's about choosing the right tools for the right job. We embrace simplicity, prioritize performance, and focus on what actually drives results.</p>
-                    </div>
-                    
-                    <div class="card">
-                        <h3 class="text-red">Transparency Always</h3>
-                        <p>No jargon, no hidden fees, no mysterious processes. We believe in clear communication, honest timelines, and straightforward pricing. You'll always know where your project stands and why.</p>
-                    </div>
-                    
-                    <div class="card">
-                        <h3 class="text-red">Future-Proof Thinking</h3>
-                        <p>We build for today's needs and tomorrow's growth. Every solution is scalable, every design is timeless, and every strategy considers where your business is headed, not just where it is now.</p>
-                    </div>
-                    
-                    <div class="card">
-                        <h3 class="text-red">Relentless Improvement</h3>
-                        <p>The digital landscape never stops evolving, and neither do we. We're constantly learning, experimenting, and refining our craft to ensure our clients always have the competitive edge.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section class="about-values">
+  <div class="container">
+    <div class="section-header anim-up" style="margin-bottom:50px;">
+      <span class="section-label">Our Values</span>
+      <h2 class="section-title">What drives <em>everything</em> we do</h2>
+    </div>
+    <div class="values-grid">
+      <div class="value-card anim-up">
+        <h3>Quality Over Speed</h3>
+        <p>We'd rather deliver one exceptional website than five mediocre ones. Every pixel, every interaction, every line of code is intentional.</p>
+      </div>
+      <div class="value-card anim-up" style="--d:0.1s;">
+        <h3>No Fluff</h3>
+        <p>We're straight talkers. No jargon, no upselling, no hidden fees. What we quote is what you pay. What we promise is what we deliver.</p>
+      </div>
+      <div class="value-card anim-up" style="--d:0.2s;">
+        <h3>Small Business First</h3>
+        <p>We exist for the local plumber, the café owner, the tradesperson who deserves a website as good as the big players — at a price that makes sense.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- Stats Section -->
-        <section class="section">
-            <div class="container">
-                <div class="section-header fade-in">
-                    <span class="section-label">By The Numbers</span>
-                    <h2>Our track record speaks for itself</h2>
-                    <p class="text-lg">These numbers represent more than statistics—they represent relationships built, challenges overcome, and dreams realized.</p>
-                </div>
-                
-                <div class="stats fade-in">
-                    <div class="stat">
-                        <span class="stat-number">27+</span>
-                        <span class="stat-label">Websites Built</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">10+</span>
-                        <span class="stat-label">Industries Served</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">100%</span>
-                        <span class="stat-label">Client Satisfaction</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">5★</span>
-                        <span class="stat-label">Average Rating</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">2.5x</span>
-                        <span class="stat-label">Average Lead Increase</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">99.9%</span>
-                        <span class="stat-label">Uptime Guarantee</span>
-                    </div>
-                </div>
-                
-                <!-- Additional Stats -->
-                <div class="grid grid-3 fade-in" style="margin-top: 4rem;">
-                    <div class="card" style="text-align: center;">
-                        <h3 class="text-red">Industries We've Transformed</h3>
-                        <div style="margin: 1.5rem 0; text-align: left;">
-                            <p>• Real Estate & Property</p>
-                            <p>• Automotive & Transportation</p>
-                            <p>• Hospitality & Tourism</p>
-                            <p>• Professional Services</p>
-                            <p>• Health & Beauty</p>
-                            <p>• Retail & E-commerce</p>
-                            <p>• Entertainment & Nightlife</p>
-                            <p>• Construction & Trade</p>
-                            <p>• Creative & Arts</p>
-                            <p>• Technology & Digital</p>
-                        </div>
-                    </div>
-                    
-                    <div class="card" style="text-align: center;">
-                        <h3 class="text-red">Client Success Stories</h3>
-                        <div style="margin: 1.5rem 0; text-align: left;">
-                            <p><strong>150%</strong> average increase in online enquiries</p>
-                            <p><strong>200%</strong> improvement in conversion rates</p>
-                            <p><strong>60%</strong> reduction in bounce rate</p>
-                            <p><strong>3x</strong> faster page load times</p>
-                            <p><strong>90%</strong> mobile performance improvement</p>
-                            <p><strong>5-star</strong> average client satisfaction</p>
-                        </div>
-                    </div>
-                    
-                    <div class="card" style="text-align: center;">
-                        <h3 class="text-red">Our Commitment</h3>
-                        <div style="margin: 1.5rem 0; text-align: left;">
-                            <p><strong>30-day</strong> post-launch support</p>
-                            <p><strong>Lifetime</strong> technical guidance</p>
-                            <p><strong>24-hour</strong> response time guarantee</p>
-                            <p><strong>100%</strong> ownership of your website</p>
-                            <p><strong>No lock-in</strong> contracts or hidden fees</p>
-                            <p><strong>Transparent</strong> pricing and timelines</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section class="about-stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item anim-up">
+        <span class="stat-num" data-count="27">0</span><span style="font-size:32px;font-weight:700;color:var(--red);">+</span>
+        <span class="stat-label">Websites Built</span>
+      </div>
+      <div class="stat-item anim-up" style="--d:0.1s;">
+        <span class="stat-num" data-count="10">0</span><span style="font-size:32px;font-weight:700;color:var(--red);">+</span>
+        <span class="stat-label">Industries Served</span>
+      </div>
+      <div class="stat-item anim-up" style="--d:0.2s;">
+        <span class="stat-num" data-count="100">0</span><span style="font-size:32px;font-weight:700;color:var(--red);">%</span>
+        <span class="stat-label">Custom Built</span>
+      </div>
+      <div class="stat-item anim-up" style="--d:0.3s;">
+        <span class="stat-num">2</span>
+        <span class="stat-label">Languages (EN/FR)</span>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- Team Section -->
-        <section class="section" style="background: linear-gradient(145deg, #1a1a1a, #0d0d0d);">
-            <div class="container">
-                <div class="section-header fade-in">
-                    <span class="section-label">Meet The Team</span>
-                    <h2>The passionate minds behind WingfieldGemini</h2>
-                    <p class="text-lg">Every great company starts with great people. Meet the team dedicated to your digital success.</p>
-                </div>
-                
-                <div class="fade-in" style="max-width: 600px; margin: 0 auto;">
-                    <div class="card" style="text-align: center; padding: 3rem;">
-                        <div style="width: 150px; height: 150px; background: linear-gradient(135deg, var(--color-red), #b91c1c); border-radius: 50%; margin: 0 auto 2rem; display: flex; align-items: center; justify-content: center; font-size: 3rem; font-weight: bold; color: white;">
-                            SHW
-                        </div>
-                        
-                        <h3 style="margin-bottom: 0.5rem;">Samuel H. Wingfield</h3>
-                        <p class="text-red" style="font-weight: 600; margin-bottom: 1.5rem;">Founder & Lead Designer</p>
-                        
-                        <p style="text-align: left; margin-bottom: 2rem; color: var(--color-gray-200);">
-                            Samuel founded WingfieldGemini with a vision to help ambitious businesses create digital experiences that truly reflect their potential. With a background in both design and development, he brings a unique perspective that bridges the gap between beautiful aesthetics and powerful functionality.
-                        </p>
-                        
-                        <div style="text-align: left;">
-                            <h4 class="text-red">Expertise:</h4>
-                            <ul style="margin: 1rem 0; padding-left: 1.5rem; color: var(--color-gray-300); line-height: 1.8;">
-                                <li>Premium Web Design & UX</li>
-                                <li>Full-Stack Development</li>
-                                <li>Digital Strategy & Consulting</li>
-                                <li>CRM Systems & Automation</li>
-                                <li>Brand Identity & Positioning</li>
-                            </ul>
-                            
-                            <h4 class="text-red" style="margin-top: 2rem;">Philosophy:</h4>
-                            <p style="color: var(--color-gray-200); font-style: italic;">
-                                "Great design isn't just about how it looks—it's about how it works, how it feels, and how it transforms businesses. Every project is an opportunity to create something extraordinary."
-                            </p>
-                        </div>
-                        
-                        <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1);">
-                            <p><strong>📍 Based in:</strong> Wellington, New Zealand</p>
-                            <p><strong>📞 Direct:</strong> +64 27 256 6620</p>
-                            <p><strong>✉️ Email:</strong> admin@wingfieldgemini.com</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Company Culture -->
-                <div class="fade-in" style="margin-top: 4rem;">
-                    <div class="section-header">
-                        <h2>Our Culture</h2>
-                        <p class="text-lg">What makes WingfieldGemini different isn't just what we do—it's how we do it.</p>
-                    </div>
-                    
-                    <div class="grid grid-2" style="gap: 4rem; align-items: center;">
-                        <div>
-                            <h3 class="text-red">Work With Purpose</h3>
-                            <p>Every project we take on aligns with our mission to create exceptional digital experiences. We're selective about the clients we work with because we believe in quality over quantity.</p>
-                            
-                            <h3 class="text-red" style="margin-top: 2rem;">Continuous Learning</h3>
-                            <p>The digital landscape evolves rapidly, and so do we. We're constantly exploring new technologies, techniques, and trends to ensure our clients always have a competitive advantage.</p>
-                            
-                            <h3 class="text-red" style="margin-top: 2rem;">Client-First Mentality</h3>
-                            <p>Your success is our success. We celebrate every milestone, learn from every challenge, and approach every project with the same level of passion and commitment.</p>
-                        </div>
-                        
-                        <div class="card">
-                            <h3>Why Choose WingfieldGemini?</h3>
-                            <ul style="margin: 1.5rem 0; padding-left: 1.5rem; color: var(--color-gray-300); line-height: 1.8;">
-                                <li><strong>Personal Touch:</strong> You work directly with the founder, not a junior developer</li>
-                                <li><strong>Local Expertise:</strong> Deep understanding of the NZ market and business landscape</li>
-                                <li><strong>Global Standards:</strong> International-quality design and development practices</li>
-                                <li><strong>Long-term Partnership:</strong> We're here for your entire digital journey</li>
-                                <li><strong>Proven Results:</strong> Track record of transforming businesses online</li>
-                                <li><strong>Fair Pricing:</strong> Premium quality without the agency markup</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section class="cta-section">
+  <div class="container"><div class="cta-content anim-up">
+    <h2>Ready to work together?</h2>
+    <p>Let's build something your competitors will envy.</p>
+    <a href="contact.html" class="btn btn-primary btn-lg">Get in Touch →</a>
+  </div></div>
+</section>
 
-        <!-- CTA Section -->
-        <section class="section">
-            <div class="container">
-                <div class="text-center fade-in">
-                    <h2>Ready to work with a team that cares?</h2>
-                    <p class="text-lg" style="margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
-                        We're not just another web design agency. We're your partners in digital transformation. Let's create something extraordinary together.
-                    </p>
-                    <div class="hero-cta">
-                        <a href="contact.html" class="btn btn-primary">Start Our Journey Together</a>
-                        <a href="portfolio.html" class="btn btn-outline">See Our Work</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+<footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-col"><div class="footer-logo"><span class="nav-logo-icon">✦</span> WingfieldGemini</div><p class="footer-tagline">Twin Wings: Two Paths, One Infinite Digital Destination.</p></div><div class="footer-col"><h4>Services</h4><a href="services.html">Web Design</a><a href="services.html">CRM Systems</a><a href="services.html">Hosting & Security</a></div><div class="footer-col"><h4>Company</h4><a href="about.html">About</a><a href="portfolio.html">Portfolio</a><a href="contact.html">Contact</a></div><div class="footer-col"><h4>Get in Touch</h4><a href="tel:+64272566620">+64 27 256 6620</a><a href="mailto:admin@wingfieldgemini.com">admin@wingfieldgemini.com</a><span>Wellington, New Zealand</span></div></div><div class="footer-bottom"><span>© 2026 WingfieldGemini. All rights reserved.</span></div></div></footer>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>WingfieldGemini</h3>
-                    <p>Twin Wings: Two Paths, One Infinite Digital Destination</p>
-                    <p>Premium web design and digital solutions for ambitious businesses.</p>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Services</h3>
-                    <ul style="list-style: none;">
-                        <li><a href="services.html#web-design">Web Design</a></li>
-                        <li><a href="services.html#crm">CRM Systems</a></li>
-                        <li><a href="services.html#hosting">Hosting & Security</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Company</h3>
-                    <ul style="list-style: none;">
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Contact</h3>
-                    <p>📞 +64 27 256 6620</p>
-                    <p>✉️ admin@wingfieldgemini.com</p>
-                    <p>📍 Wellington, New Zealand</p>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2026 WingfieldGemini. All rights reserved. Built with precision and passion.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Back to Top Button -->
-    <button class="back-to-top" title="Back to top">↑</button>
-
-    <!-- Scripts -->
-    <script src="script.js"></script>
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+<script src="script.js"></script>
 </body>
 </html>

@@ -1,393 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services | WingfieldGemini</title>
-    <meta name="description" content="Premium web design, CRM systems, and hosting solutions. Everything you need to dominate online and grow your business.">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Services | WingfieldGemini">
-    <meta property="og:description" content="Premium web design, CRM systems, and hosting solutions. Everything you need to dominate online.">
-    <meta property="og:url" content="https://wingfieldgemini.github.io/wingfieldpsycho/services.html">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2IDJMMjAgNkwxNiAxMEwxMiA2TDE2IDJaIiBmaWxsPSIjREMyNjI2Ii8+CjxwYXRoIGQ9Ik0xNiAzMEwxMiAyNkwxNiAyMkwyMCAyNkwxNiAzMFoiIGZpbGw9IiNEQzI2MjYiLz4KPHN2Zz4K">
-    
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services — WingfieldGemini</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <a href="index.html" class="logo">
-                    <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M50 10L70 30L50 50L30 30L50 10Z" fill="currentColor"/>
-                        <path d="M50 90L30 70L50 50L70 70L50 90Z" fill="currentColor"/>
-                        <circle cx="50" cy="50" r="3" fill="currentColor"/>
-                    </svg>
-                    WingfieldGemini
-                </a>
-                
-                <nav>
-                    <ul class="nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-                
-                <button class="mobile-menu-btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-        </div>
-        
-        <nav class="mobile-nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<div class="loader" id="loader"><svg class="loader-phoenix" viewBox="0 0 100 100" fill="none"><path d="M50 15 L42 35 L30 28 L38 42 L20 45 L38 48 L30 62 L42 55 L50 75 L58 55 L70 62 L62 48 L80 45 L62 42 L70 28 L58 35 Z" fill="#DC2626" opacity="0.9"/></svg></div>
 
-    <!-- Main Content -->
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" style="min-height: 60vh;">
-            <div class="container">
-                <div class="hero-content fade-in">
-                    <span class="section-label">Services</span>
-                    <h1>Everything you need to dominate online</h1>
-                    <p class="hero-subtitle">
-                        From concept to launch and beyond, we provide comprehensive digital solutions tailored for ambitious businesses ready to make their mark.
-                    </p>
-                </div>
-            </div>
-        </section>
+<nav class="nav" id="nav"><div class="nav-inner"><a href="index.html" class="nav-logo"><span class="nav-logo-icon">✦</span><span>WingfieldGemini</span></a><div class="nav-links" id="navLinks"><a href="index.html">Home</a><a href="portfolio.html">Portfolio</a><a href="services.html" class="active">Services</a><a href="about.html">About</a><a href="contact.html" class="nav-cta">Start a Project</a></div><button class="nav-burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></div></nav>
 
-        <!-- Web Design Service -->
-        <section class="section" id="web-design">
-            <div class="container">
-                <div class="grid grid-2" style="align-items: center; gap: 4rem;">
-                    <div class="fade-in">
-                        <span class="section-label">Premium Web Design</span>
-                        <h2>Websites that work as hard as you do</h2>
-                        <p class="text-lg">Your website is your digital storefront, your 24/7 sales representative, and often the first impression potential customers have of your business. We create bespoke websites that don't just look stunning—they convert visitors into customers.</p>
-                        
-                        <p>Every design is crafted from scratch, optimized for performance, and built to scale with your business. Mobile-first, SEO-ready, and designed to make your competitors jealous.</p>
-                        
-                        <div style="margin: 2rem 0;">
-                            <h3 class="text-red">What's Included:</h3>
-                            <ul style="margin: 1rem 0; padding-left: 1.5rem; color: var(--color-gray-300); line-height: 1.8;">
-                                <li>Custom responsive design tailored to your brand</li>
-                                <li>Mobile-first approach ensuring perfect mobile experience</li>
-                                <li>SEO foundation with optimized structure and meta tags</li>
-                                <li>Performance optimization for lightning-fast loading</li>
-                                <li>Content management system for easy updates</li>
-                                <li>Contact forms and lead capture systems</li>
-                                <li>Social media integration</li>
-                                <li>Google Analytics setup and configuration</li>
-                                <li>Cross-browser compatibility testing</li>
-                                <li>30 days of post-launch support and training</li>
-                            </ul>
-                        </div>
-                        
-                        <div style="margin: 2rem 0;">
-                            <h3 class="text-red">Perfect For:</h3>
-                            <p>Small to medium businesses, professional services, restaurants, retail stores, real estate agencies, healthcare providers, and any business serious about their online presence.</p>
-                        </div>
-                        
-                        <a href="contact.html" class="btn btn-primary">Get Started</a>
-                    </div>
-                    
-                    <div class="fade-in">
-                        <div class="card" style="background: linear-gradient(145deg, #1a1a1a, #0d0d0d); border: 1px solid var(--color-red);">
-                            <h3>Recent Web Design Projects</h3>
-                            <div style="margin: 1.5rem 0;">
-                                <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-                                    <div style="width: 10px; height: 10px; background: var(--color-red); border-radius: 50%; margin-right: 1rem;"></div>
-                                    <span><strong>IDN Property Bali</strong> - Real Estate Platform</span>
-                                </div>
-                                <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-                                    <div style="width: 10px; height: 10px; background: var(--color-red); border-radius: 50%; margin-right: 1rem;"></div>
-                                    <span><strong>Glass Protect</strong> - Automotive Services</span>
-                                </div>
-                                <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-                                    <div style="width: 10px; height: 10px; background: var(--color-red); border-radius: 50%; margin-right: 1rem;"></div>
-                                    <span><strong>Coral Drift Bali</strong> - Tourism & Activities</span>
-                                </div>
-                                <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-                                    <div style="width: 10px; height: 10px; background: var(--color-red); border-radius: 50%; margin-right: 1rem;"></div>
-                                    <span><strong>ClearFlow Plumbers</strong> - Home Services</span>
-                                </div>
-                            </div>
-                            <a href="portfolio.html" class="btn btn-outline">View All Projects</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section class="page-hero">
+  <span class="section-label anim-up">Our Services</span>
+  <h1 class="anim-up" style="--d:0.1s">Everything your business<br>needs <em>online</em></h1>
+</section>
 
-        <!-- CRM Systems Service -->
-        <section class="section" id="crm" style="background: linear-gradient(145deg, #1a1a1a, #0d0d0d);">
-            <div class="container">
-                <div class="grid grid-2" style="align-items: center; gap: 4rem;">
-                    <div class="fade-in">
-                        <div class="card" style="background: linear-gradient(145deg, #262626, #171717); border: 1px solid var(--color-red);">
-                            <h3>CRM System Benefits</h3>
-                            <div style="margin: 1.5rem 0;">
-                                <div class="stat" style="text-align: left; padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
-                                    <span class="stat-number" style="font-size: 2rem;">2.5x</span>
-                                    <span class="stat-label">Average increase in lead conversion</span>
-                                </div>
-                                <div class="stat" style="text-align: left; padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
-                                    <span class="stat-number" style="font-size: 2rem;">60%</span>
-                                    <span class="stat-label">Reduction in manual follow-up time</span>
-                                </div>
-                                <div class="stat" style="text-align: left; padding: 1rem 0;">
-                                    <span class="stat-number" style="font-size: 2rem;">90%</span>
-                                    <span class="stat-label">Client retention improvement rate</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="fade-in">
-                        <span class="section-label">CRM Systems</span>
-                        <h2>Turn leads into loyal customers</h2>
-                        <p class="text-lg">Stop losing potential customers to the follow-up void. Our CRM systems capture every lead, nurture every relationship, and turn prospects into paying customers while you focus on running your business.</p>
-                        
-                        <p>From first contact to final sale and beyond, our automated systems ensure no opportunity falls through the cracks. Track interactions, schedule follow-ups, and build relationships that drive long-term growth.</p>
-                        
-                        <div style="margin: 2rem 0;">
-                            <h3 class="text-red">System Features:</h3>
-                            <ul style="margin: 1rem 0; padding-left: 1.5rem; color: var(--color-gray-300); line-height: 1.8;">
-                                <li>Automated lead capture from website forms and calls</li>
-                                <li>Email sequence automation for nurturing prospects</li>
-                                <li>Sales pipeline management and tracking</li>
-                                <li>Customer interaction history and notes</li>
-                                <li>Automated appointment booking and reminders</li>
-                                <li>Follow-up task scheduling and notifications</li>
-                                <li>Customer segmentation and targeted messaging</li>
-                                <li>Sales performance analytics and reporting</li>
-                                <li>Integration with existing business tools</li>
-                                <li>Mobile access for on-the-go management</li>
-                            </ul>
-                        </div>
-                        
-                        <div style="margin: 2rem 0;">
-                            <h3 class="text-red">Ideal For:</h3>
-                            <p>Service-based businesses, sales teams, real estate agencies, healthcare practices, professional services, and any business that relies on customer relationships and repeat business.</p>
-                        </div>
-                        
-                        <a href="contact.html" class="btn btn-primary">Transform Your Sales Process</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section class="service-detail">
+  <div class="container">
+    <div class="service-detail-inner anim-up">
+      <div class="service-detail-content">
+        <span class="section-label">01</span>
+        <h3>Web Design & Development</h3>
+        <p>Every website we build is designed from scratch. No themes, no templates, no shortcuts. We craft bespoke digital experiences that tell your story and convert visitors into customers.</p>
+        <ul class="service-detail-features">
+          <li>100% custom design — no WordPress themes</li>
+          <li>Mobile-first responsive development</li>
+          <li>SEO optimised from the ground up</li>
+          <li>Performance optimised (sub-3s load times)</li>
+          <li>Ongoing support and maintenance</li>
+          <li>Content management training</li>
+        </ul>
+      </div>
+      <div class="service-detail-visual">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- Hosting & Security Service -->
-        <section class="section" id="hosting">
-            <div class="container">
-                <div class="grid grid-2" style="align-items: center; gap: 4rem;">
-                    <div class="fade-in">
-                        <span class="section-label">Hosting & Security</span>
-                        <h2>Your website's fortress in the cloud</h2>
-                        <p class="text-lg">Your website is only as strong as its foundation. Our premium hosting infrastructure delivers lightning-fast performance, enterprise-grade security, and 99.9% uptime guarantee. Sleep soundly knowing your digital presence is protected.</p>
-                        
-                        <p>From small business websites to high-traffic applications, our hosting solutions scale with your success. Automatic backups, proactive monitoring, and expert support ensure your website is always running at peak performance.</p>
-                        
-                        <div style="margin: 2rem 0;">
-                            <h3 class="text-red">Hosting Features:</h3>
-                            <ul style="margin: 1rem 0; padding-left: 1.5rem; color: var(--color-gray-300); line-height: 1.8;">
-                                <li>High-performance SSD storage and CDN</li>
-                                <li>SSL certificates for secure HTTPS encryption</li>
-                                <li>Daily automated backups with easy restore</li>
-                                <li>24/7 security monitoring and threat detection</li>
-                                <li>DDoS protection and firewall security</li>
-                                <li>Uptime monitoring with instant alerts</li>
-                                <li>Email hosting with spam protection</li>
-                                <li>Database optimization and management</li>
-                                <li>Staging environments for safe testing</li>
-                                <li>Expert technical support when you need it</li>
-                            </ul>
-                        </div>
-                        
-                        <div style="margin: 2rem 0;">
-                            <h3 class="text-red">Security Measures:</h3>
-                            <ul style="margin: 1rem 0; padding-left: 1.5rem; color: var(--color-gray-300); line-height: 1.8;">
-                                <li>Web Application Firewall (WAF) protection</li>
-                                <li>Malware scanning and automatic removal</li>
-                                <li>Regular security updates and patches</li>
-                                <li>Intrusion detection and prevention</li>
-                                <li>Secure file transfer and access controls</li>
-                            </ul>
-                        </div>
-                        
-                        <a href="contact.html" class="btn btn-primary">Secure Your Website</a>
-                    </div>
-                    
-                    <div class="fade-in">
-                        <div class="card" style="background: linear-gradient(145deg, #1a1a1a, #0d0d0d); border: 1px solid var(--color-red);">
-                            <h3>Why Our Hosting?</h3>
-                            
-                            <div style="margin: 2rem 0;">
-                                <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem;">
-                                    <div style="width: 20px; height: 20px; background: var(--color-red); border-radius: 50%; margin-right: 1rem; margin-top: 0.2rem; flex-shrink: 0;"></div>
-                                    <div>
-                                        <strong style="color: var(--color-white);">Lightning Fast</strong>
-                                        <p style="color: var(--color-gray-300); margin: 0.5rem 0 0 0;">Advanced caching and optimization for sub-2-second page loads</p>
-                                    </div>
-                                </div>
-                                
-                                <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem;">
-                                    <div style="width: 20px; height: 20px; background: var(--color-red); border-radius: 50%; margin-right: 1rem; margin-top: 0.2rem; flex-shrink: 0;"></div>
-                                    <div>
-                                        <strong style="color: var(--color-white);">Fort Knox Security</strong>
-                                        <p style="color: var(--color-gray-300); margin: 0.5rem 0 0 0;">Multi-layered security that blocks 99.9% of threats before they reach your site</p>
-                                    </div>
-                                </div>
-                                
-                                <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem;">
-                                    <div style="width: 20px; height: 20px; background: var(--color-red); border-radius: 50%; margin-right: 1rem; margin-top: 0.2rem; flex-shrink: 0;"></div>
-                                    <div>
-                                        <strong style="color: var(--color-white);">Always Online</strong>
-                                        <p style="color: var(--color-gray-300); margin: 0.5rem 0 0 0;">99.9% uptime guarantee with redundant systems and automatic failover</p>
-                                    </div>
-                                </div>
-                                
-                                <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem;">
-                                    <div style="width: 20px; height: 20px; background: var(--color-red); border-radius: 50%; margin-right: 1rem; margin-top: 0.2rem; flex-shrink: 0;"></div>
-                                    <div>
-                                        <strong style="color: var(--color-white);">Expert Support</strong>
-                                        <p style="color: var(--color-gray-300); margin: 0.5rem 0 0 0;">Real humans who actually understand websites and respond within hours</p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="stats" style="margin: 2rem 0;">
-                                <div class="stat" style="text-align: center; padding: 1rem;">
-                                    <span class="stat-number" style="font-size: 2rem;">99.9%</span>
-                                    <span class="stat-label">Uptime Guarantee</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section class="service-detail">
+  <div class="container">
+    <div class="service-detail-inner anim-up" style="direction:rtl;">
+      <div class="service-detail-content" style="direction:ltr;">
+        <span class="section-label">02</span>
+        <h3>CRM Systems</h3>
+        <p>Automate your client management with intelligent pipelines, automated follow-ups, and booking systems that work while you sleep. Built on GoHighLevel — white-labelled to your brand.</p>
+        <ul class="service-detail-features">
+          <li>Automated lead capture and nurturing</li>
+          <li>Custom sales pipelines</li>
+          <li>Email and SMS campaigns</li>
+          <li>Online booking and scheduling</li>
+          <li>Client portal and invoicing</li>
+          <li>Analytics and reporting dashboard</li>
+        </ul>
+      </div>
+      <div class="service-detail-visual" style="direction:ltr;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- Process Section -->
-        <section class="section" style="background: linear-gradient(145deg, #1a1a1a, #0d0d0d);">
-            <div class="container">
-                <div class="section-header fade-in">
-                    <span class="section-label">Our Process</span>
-                    <h2>From vision to reality</h2>
-                    <p class="text-lg">Our proven process ensures every project exceeds expectations and delivers real business results.</p>
-                </div>
-                
-                <div class="grid grid-4 fade-in">
-                    <div class="card" style="text-align: center;">
-                        <div style="width: 60px; height: 60px; background: var(--color-red); border-radius: 50%; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold;">1</div>
-                        <h3>Discovery</h3>
-                        <p>We dive deep into your business goals, target audience, and competitive landscape to understand exactly what success looks like for you.</p>
-                    </div>
-                    
-                    <div class="card" style="text-align: center;">
-                        <div style="width: 60px; height: 60px; background: var(--color-red); border-radius: 50%; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold;">2</div>
-                        <h3>Strategy</h3>
-                        <p>We craft a comprehensive digital strategy tailored to your unique needs, complete with wireframes, user journeys, and technical specifications.</p>
-                    </div>
-                    
-                    <div class="card" style="text-align: center;">
-                        <div style="width: 60px; height: 60px; background: var(--color-red); border-radius: 50%; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold;">3</div>
-                        <h3>Creation</h3>
-                        <p>Our team brings your vision to life with pixel-perfect design, clean code, and rigorous testing across all devices and browsers.</p>
-                    </div>
-                    
-                    <div class="card" style="text-align: center;">
-                        <div style="width: 60px; height: 60px; background: var(--color-red); border-radius: 50%; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold;">4</div>
-                        <h3>Growth</h3>
-                        <p>Post-launch optimization, training, and ongoing support ensure your digital presence continues to drive business growth.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section class="service-detail">
+  <div class="container">
+    <div class="service-detail-inner anim-up">
+      <div class="service-detail-content">
+        <span class="section-label">03</span>
+        <h3>Hosting & Security</h3>
+        <p>Enterprise-grade hosting powered by Cloudways and protected by Cloudflare. Your site stays fast, secure, and online — 99.9% uptime guaranteed.</p>
+        <ul class="service-detail-features">
+          <li>Managed cloud hosting (AWS/DigitalOcean)</li>
+          <li>SSL certificates and HTTPS</li>
+          <li>DDoS protection via Cloudflare</li>
+          <li>Daily automated backups</li>
+          <li>24/7 uptime monitoring</li>
+          <li>Security hardening and firewall rules</li>
+        </ul>
+      </div>
+      <div class="service-detail-visual">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- CTA Section -->
-        <section class="section">
-            <div class="container">
-                <div class="text-center fade-in">
-                    <h2>Ready to dominate your industry online?</h2>
-                    <p class="text-lg" style="margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
-                        Stop settling for mediocre. Let's build something extraordinary that drives real results for your business.
-                    </p>
-                    <div class="hero-cta">
-                        <a href="contact.html" class="btn btn-primary">Start Your Project</a>
-                        <a href="portfolio.html" class="btn btn-outline">View Our Work</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+<section class="cta-section">
+  <div class="container"><div class="cta-content anim-up">
+    <h2>Let's build something <em>exceptional</em></h2>
+    <p>Book a free 15-minute consultation to discuss your project.</p>
+    <a href="contact.html" class="btn btn-primary btn-lg">Get Started →</a>
+  </div></div>
+</section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>WingfieldGemini</h3>
-                    <p>Twin Wings: Two Paths, One Infinite Digital Destination</p>
-                    <p>Premium web design and digital solutions for ambitious businesses.</p>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Services</h3>
-                    <ul style="list-style: none;">
-                        <li><a href="#web-design">Web Design</a></li>
-                        <li><a href="#crm">CRM Systems</a></li>
-                        <li><a href="#hosting">Hosting & Security</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Company</h3>
-                    <ul style="list-style: none;">
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Contact</h3>
-                    <p>📞 +64 27 256 6620</p>
-                    <p>✉️ admin@wingfieldgemini.com</p>
-                    <p>📍 Wellington, New Zealand</p>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2026 WingfieldGemini. All rights reserved. Built with precision and passion.</p>
-            </div>
-        </div>
-    </footer>
+<footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-col"><div class="footer-logo"><span class="nav-logo-icon">✦</span> WingfieldGemini</div><p class="footer-tagline">Twin Wings: Two Paths, One Infinite Digital Destination.</p></div><div class="footer-col"><h4>Services</h4><a href="services.html">Web Design</a><a href="services.html">CRM Systems</a><a href="services.html">Hosting & Security</a></div><div class="footer-col"><h4>Company</h4><a href="about.html">About</a><a href="portfolio.html">Portfolio</a><a href="contact.html">Contact</a></div><div class="footer-col"><h4>Get in Touch</h4><a href="tel:+64272566620">+64 27 256 6620</a><a href="mailto:admin@wingfieldgemini.com">admin@wingfieldgemini.com</a><span>Wellington, New Zealand</span></div></div><div class="footer-bottom"><span>© 2026 WingfieldGemini. All rights reserved.</span></div></div></footer>
 
-    <!-- Back to Top Button -->
-    <button class="back-to-top" title="Back to top">↑</button>
-
-    <!-- Scripts -->
-    <script src="script.js"></script>
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+<script src="script.js"></script>
 </body>
 </html>

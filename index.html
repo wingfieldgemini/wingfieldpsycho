@@ -1,326 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WingfieldGemini | Premium Web Design & Digital Solutions</title>
-    <meta name="description" content="Twin Wings: Two Paths, One Infinite Digital Destination. Premium web design, CRM systems, and hosting solutions for small businesses.">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="WingfieldGemini | Premium Web Design & Digital Solutions">
-    <meta property="og:description" content="Digital experiences that excite and inspire. Premium web design for ambitious small businesses.">
-    <meta property="og:url" content="https://wingfieldgemini.github.io/wingfieldpsycho/">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="WingfieldGemini | Premium Web Design & Digital Solutions">
-    <meta property="twitter:description" content="Digital experiences that excite and inspire. Premium web design for ambitious small businesses.">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2IDJMMjAgNkwxNiAxMEwxMiA2TDE2IDJaIiBmaWxsPSIjREMyNjI2Ii8+CjxwYXRoIGQ9Ik0xNiAzMEwxMiAyNkwxNiAyMkwyMCAyNkwxNiAzMFoiIGZpbGw9IiNEQzI2MjYiLz4KPHN2Zz4K">
-    
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WingfieldGemini — Premium Digital Services</title>
+<meta name="description" content="Premium web design, CRM systems, and hosting for ambitious small businesses. Wellington, New Zealand.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <a href="index.html" class="logo">
-                    <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M50 10L70 30L50 50L30 30L50 10Z" fill="currentColor"/>
-                        <path d="M50 90L30 70L50 50L70 70L50 90Z" fill="currentColor"/>
-                        <circle cx="50" cy="50" r="3" fill="currentColor"/>
-                    </svg>
-                    WingfieldGemini
-                </a>
-                
-                <nav>
-                    <ul class="nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-                
-                <button class="mobile-menu-btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
+
+<!-- LOADER -->
+<div class="loader" id="loader">
+  <svg class="loader-phoenix" viewBox="0 0 100 100" fill="none">
+    <path d="M50 15 L42 35 L30 28 L38 42 L20 45 L38 48 L30 62 L42 55 L50 75 L58 55 L70 62 L62 48 L80 45 L62 42 L70 28 L58 35 Z" fill="#DC2626" opacity="0.9"/>
+    <path d="M50 10 L45 30 L32 22 L40 38 L15 42 L40 46 L32 60 L45 52 L50 80 L55 52 L68 60 L60 46 L85 42 L60 38 L68 22 L55 30 Z" stroke="#DC2626" stroke-width="0.5" fill="none" opacity="0.4"/>
+  </svg>
+</div>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-icon">✦</span>
+      <span>WingfieldGemini</span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html" class="active">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="nav-cta">Start a Project</a>
+    </div>
+    <button class="nav-burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg">
+    <div class="hero-grid-lines"></div>
+    <div class="hero-glow"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-label anim-up">Digital Agency — Wellington, NZ</div>
+    <h1 class="hero-title">
+      <span class="anim-up" style="--d:0.1s">We build websites</span>
+      <span class="anim-up" style="--d:0.2s">that make people <em>stop</em></span>
+      <span class="anim-up" style="--d:0.3s"><em>and look.</em></span>
+    </h1>
+    <p class="hero-sub anim-up" style="--d:0.4s">Premium web design, CRM systems, and hosting for ambitious small businesses who refuse to blend into the digital background.</p>
+    <div class="hero-actions anim-up" style="--d:0.5s">
+      <a href="portfolio.html" class="btn btn-primary">View Our Work</a>
+      <a href="contact.html" class="btn btn-outline">Start a Project →</a>
+    </div>
+    <div class="hero-stats anim-up" style="--d:0.6s">
+      <div class="hero-stat">
+        <span class="hero-stat-num" data-count="27">0</span><span class="hero-stat-plus">+</span>
+        <span class="hero-stat-label">Websites Built</span>
+      </div>
+      <div class="hero-stat-divider"></div>
+      <div class="hero-stat">
+        <span class="hero-stat-num" data-count="10">0</span><span class="hero-stat-plus">+</span>
+        <span class="hero-stat-label">Industries Served</span>
+      </div>
+      <div class="hero-stat-divider"></div>
+      <div class="hero-stat">
+        <span class="hero-stat-num" data-count="100">0</span><span class="hero-stat-pct">%</span>
+        <span class="hero-stat-label">Custom Built</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="hero-scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- FEATURED WORK -->
+<section class="featured" id="featured">
+  <div class="container">
+    <div class="section-header anim-up">
+      <span class="section-label">Selected Work</span>
+      <h2 class="section-title">Projects we're <em>proud of</em></h2>
+    </div>
+
+    <div class="featured-grid">
+      <a href="https://wingfieldgemini.github.io/Bisousbisousclub/" target="_blank" class="featured-card featured-card--large anim-up">
+        <div class="featured-card-img">
+          <img src="img/bisous-bisous.jpg" alt="Bisous Bisous Club" loading="lazy">
         </div>
-        
-        <nav class="mobile-nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Main Content -->
-    <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container">
-                <div class="hero-content fade-in">
-                    <h1>Digital experiences that excite and inspire</h1>
-                    <p class="hero-subtitle">
-                        Twin Wings: Two Paths, One Infinite Digital Destination. We craft premium web experiences for ambitious small businesses who refuse to blend into the digital background.
-                    </p>
-                    <div class="hero-cta">
-                        <a href="portfolio.html" class="btn btn-primary">View Our Work</a>
-                        <a href="contact.html" class="btn btn-outline">Start Your Project</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Featured Projects Section -->
-        <section class="section">
-            <div class="container">
-                <div class="section-header fade-in">
-                    <span class="section-label">Featured Work</span>
-                    <h2>Projects that make an impact</h2>
-                    <p class="text-lg">Every pixel placed with purpose, every interaction designed to delight. Here are some of our favorite success stories.</p>
-                </div>
-                
-                <div class="portfolio-grid fade-in">
-                    <!-- IDN Property Bali -->
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-image">IDN Property Bali</div>
-                        <div class="portfolio-item-overlay">
-                            <h3 class="portfolio-item-title">IDN Property Bali</h3>
-                            <p class="portfolio-item-category">Real Estate</p>
-                            <a href="https://wingfieldgemini.github.io/idnproprety/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Bisous Bisous Club -->
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-image">Bisous Bisous Club</div>
-                        <div class="portfolio-item-overlay">
-                            <h3 class="portfolio-item-title">Bisous Bisous Club</h3>
-                            <p class="portfolio-item-category">Nightlife</p>
-                            <a href="https://wingfieldgemini.github.io/Bisousbisousclub/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Glass Protect -->
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-image">Glass Protect</div>
-                        <div class="portfolio-item-overlay">
-                            <h3 class="portfolio-item-title">Glass Protect</h3>
-                            <p class="portfolio-item-category">Automotive</p>
-                            <a href="https://wingfieldgemini.github.io/glassprotect/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Meridian & Co Real Estate -->
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-image">Meridian & Co Real Estate</div>
-                        <div class="portfolio-item-overlay">
-                            <h3 class="portfolio-item-title">Meridian & Co Real Estate</h3>
-                            <p class="portfolio-item-category">Real Estate</p>
-                            <a href="https://realestatetemplate.github.io/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Coral Drift Bali -->
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-image">Coral Drift Bali</div>
-                        <div class="portfolio-item-overlay">
-                            <h3 class="portfolio-item-title">Coral Drift Bali</h3>
-                            <p class="portfolio-item-category">Hospitality</p>
-                            <a href="https://wingfieldgemini.github.io/snorkeling-template/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
-                        </div>
-                    </div>
-                    
-                    <!-- ClearFlow Plumbers -->
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-image">ClearFlow Plumbers</div>
-                        <div class="portfolio-item-overlay">
-                            <h3 class="portfolio-item-title">ClearFlow Plumbers</h3>
-                            <p class="portfolio-item-category">Services</p>
-                            <a href="https://wingfieldgemini.github.io/plumberstemplatev2/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Verdant Landscaping -->
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-image">Verdant Landscaping</div>
-                        <div class="portfolio-item-overlay">
-                            <h3 class="portfolio-item-title">Verdant Landscaping</h3>
-                            <p class="portfolio-item-category">Services</p>
-                            <a href="https://wingfieldgemini.github.io/landscapingtemplatev2/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Gym Template -->
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-image">Premium Fitness</div>
-                        <div class="portfolio-item-overlay">
-                            <h3 class="portfolio-item-title">Premium Fitness</h3>
-                            <p class="portfolio-item-category">Health & Beauty</p>
-                            <a href="https://wingfieldgemini.github.io/gymtemplate/" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="text-center fade-in" style="margin-top: 3rem;">
-                    <a href="portfolio.html" class="btn btn-primary">View Full Portfolio</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services Overview Section -->
-        <section class="section" style="background: linear-gradient(145deg, #1a1a1a, #0d0d0d);">
-            <div class="container">
-                <div class="section-header fade-in">
-                    <span class="section-label">Our Expertise</span>
-                    <h2>Everything you need to dominate online</h2>
-                    <p class="text-lg">From concept to launch and beyond, we provide comprehensive digital solutions tailored for ambitious businesses.</p>
-                </div>
-                
-                <div class="grid grid-3 fade-in">
-                    <div class="card">
-                        <h3 class="text-red">Premium Web Design</h3>
-                        <p>Bespoke websites that capture attention and convert visitors into customers. Mobile-first, SEO-optimized, and built to perform.</p>
-                        <ul style="margin: 1.5rem 0; padding-left: 1.5rem; color: var(--color-gray-300);">
-                            <li>Custom responsive design</li>
-                            <li>Performance optimization</li>
-                            <li>SEO foundation</li>
-                            <li>Content management systems</li>
-                        </ul>
-                        <a href="services.html#web-design" class="btn btn-outline">Learn More</a>
-                    </div>
-                    
-                    <div class="card">
-                        <h3 class="text-red">CRM Systems</h3>
-                        <p>Streamline your customer relationships with powerful automation tools that nurture leads and drive sales growth.</p>
-                        <ul style="margin: 1.5rem 0; padding-left: 1.5rem; color: var(--color-gray-300);">
-                            <li>Lead capture & nurturing</li>
-                            <li>Sales pipeline management</li>
-                            <li>Email automation</li>
-                            <li>Customer insights</li>
-                        </ul>
-                        <a href="services.html#crm" class="btn btn-outline">Learn More</a>
-                    </div>
-                    
-                    <div class="card">
-                        <h3 class="text-red">Hosting & Security</h3>
-                        <p>Rock-solid hosting infrastructure with enterprise-grade security. Your website stays fast, safe, and always online.</p>
-                        <ul style="margin: 1.5rem 0; padding-left: 1.5rem; color: var(--color-gray-300);">
-                            <li>High-performance hosting</li>
-                            <li>SSL certificates</li>
-                            <li>Daily backups</li>
-                            <li>24/7 monitoring</li>
-                        </ul>
-                        <a href="services.html#hosting" class="btn btn-outline">Learn More</a>
-                    </div>
-                </div>
-                
-                <div class="text-center fade-in" style="margin-top: 3rem;">
-                    <a href="services.html" class="btn btn-primary">All Services</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Stats Section -->
-        <section class="section">
-            <div class="container">
-                <div class="stats fade-in">
-                    <div class="stat">
-                        <span class="stat-number">27+</span>
-                        <span class="stat-label">Websites Built</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">10+</span>
-                        <span class="stat-label">Industries Served</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">100%</span>
-                        <span class="stat-label">Client Satisfaction</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">5★</span>
-                        <span class="stat-label">Average Rating</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- CTA Section -->
-        <section class="section">
-            <div class="container">
-                <div class="text-center fade-in">
-                    <h2>Ready to transform your digital presence?</h2>
-                    <p class="text-lg" style="margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
-                        Let's create something extraordinary together. Book a consultation and discover how we can elevate your business online.
-                    </p>
-                    <div class="hero-cta">
-                        <a href="contact.html" class="btn btn-primary">Get Started Today</a>
-                        <a href="portfolio.html" class="btn btn-outline">View Our Work</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>WingfieldGemini</h3>
-                    <p>Twin Wings: Two Paths, One Infinite Digital Destination</p>
-                    <p>Premium web design and digital solutions for ambitious businesses.</p>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Services</h3>
-                    <ul style="list-style: none;">
-                        <li><a href="services.html#web-design">Web Design</a></li>
-                        <li><a href="services.html#crm">CRM Systems</a></li>
-                        <li><a href="services.html#hosting">Hosting & Security</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Company</h3>
-                    <ul style="list-style: none;">
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Contact</h3>
-                    <p>📞 +64 27 256 6620</p>
-                    <p>✉️ admin@wingfieldgemini.com</p>
-                    <p>📍 Wellington, New Zealand</p>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2026 WingfieldGemini. All rights reserved. Built with precision and passion.</p>
-            </div>
+        <div class="featured-card-overlay">
+          <span class="featured-card-cat">Nightlife</span>
+          <h3>Bisous Bisous Club</h3>
+          <p>Premium nightclub experience — Cannes, France</p>
+          <span class="featured-card-arrow">→</span>
         </div>
-    </footer>
+      </a>
 
-    <!-- Back to Top Button -->
-    <button class="back-to-top" title="Back to top">↑</button>
+      <a href="https://wingfieldgemini.github.io/idnproprety/" target="_blank" class="featured-card anim-up">
+        <div class="featured-card-img">
+          <img src="img/idn-property.jpg" alt="IDN Property" loading="lazy">
+        </div>
+        <div class="featured-card-overlay">
+          <span class="featured-card-cat">Real Estate</span>
+          <h3>IDN Property Bali</h3>
+          <span class="featured-card-arrow">→</span>
+        </div>
+      </a>
 
-    <!-- Scripts -->
-    <script src="script.js"></script>
+      <a href="https://wingfieldgemini.github.io/glassprotect/" target="_blank" class="featured-card anim-up">
+        <div class="featured-card-img">
+          <img src="img/glass-protect.jpg" alt="Glass Protect" loading="lazy">
+        </div>
+        <div class="featured-card-overlay">
+          <span class="featured-card-cat">Automotive</span>
+          <h3>Glass Protect</h3>
+          <span class="featured-card-arrow">→</span>
+        </div>
+      </a>
+
+      <a href="https://realestatetemplate.github.io/" target="_blank" class="featured-card anim-up">
+        <div class="featured-card-img">
+          <img src="img/real-estate.jpg" alt="Meridian Real Estate" loading="lazy">
+        </div>
+        <div class="featured-card-overlay">
+          <span class="featured-card-cat">Real Estate</span>
+          <h3>Meridian & Co</h3>
+          <span class="featured-card-arrow">→</span>
+        </div>
+      </a>
+
+      <a href="https://automechanicstemplatev3.github.io/" target="_blank" class="featured-card featured-card--large anim-up">
+        <div class="featured-card-img">
+          <img src="img/apex-auto.jpg" alt="Apex Auto" loading="lazy">
+        </div>
+        <div class="featured-card-overlay">
+          <span class="featured-card-cat">Automotive</span>
+          <h3>Apex Auto</h3>
+          <p>High-performance auto workshop — Three.js powered</p>
+          <span class="featured-card-arrow">→</span>
+        </div>
+      </a>
+
+      <a href="https://wingfieldgemini.github.io/snorkeling-template/" target="_blank" class="featured-card anim-up">
+        <div class="featured-card-img">
+          <img src="img/coral-drift.jpg" alt="Coral Drift Bali" loading="lazy">
+        </div>
+        <div class="featured-card-overlay">
+          <span class="featured-card-cat">Hospitality</span>
+          <h3>Coral Drift Bali</h3>
+          <span class="featured-card-arrow">→</span>
+        </div>
+      </a>
+
+      <a href="https://wingfieldgemini.github.io/mamasabikerental/" target="_blank" class="featured-card anim-up">
+        <div class="featured-card-img">
+          <img src="img/mamasa-bike.jpg" alt="Mamasa Bike Rental" loading="lazy">
+        </div>
+        <div class="featured-card-overlay">
+          <span class="featured-card-cat">Hospitality</span>
+          <h3>Mamasa Bike Rental</h3>
+          <span class="featured-card-arrow">→</span>
+        </div>
+      </a>
+
+      <a href="https://jackieprototypetemplate.github.io/" target="_blank" class="featured-card anim-up">
+        <div class="featured-card-img">
+          <img src="img/beatgirls.jpg" alt="BeatGirls" loading="lazy">
+        </div>
+        <div class="featured-card-overlay">
+          <span class="featured-card-cat">Brand</span>
+          <h3>BeatGirls</h3>
+          <span class="featured-card-arrow">→</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="featured-cta anim-up">
+      <a href="portfolio.html" class="btn btn-primary">View All Projects →</a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services-section">
+  <div class="container">
+    <div class="section-header anim-up">
+      <span class="section-label">What We Do</span>
+      <h2 class="section-title">Everything your business needs <em>online</em></h2>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card anim-up">
+        <div class="service-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <h3>Web Design</h3>
+        <p>Bespoke websites built from scratch. No templates, no WordPress themes. Every pixel is intentional.</p>
+        <a href="services.html" class="service-card-link">Learn more →</a>
+      </div>
+
+      <div class="service-card anim-up">
+        <div class="service-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3>CRM Systems</h3>
+        <p>Automated client management. Pipelines, follow-ups, and booking systems that work while you sleep.</p>
+        <a href="services.html" class="service-card-link">Learn more →</a>
+      </div>
+
+      <div class="service-card anim-up">
+        <div class="service-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Hosting & Security</h3>
+        <p>Enterprise-grade hosting with SSL, DDoS protection, and 99.9% uptime. Your site stays fast and safe.</p>
+        <a href="services.html" class="service-card-link">Learn more →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section">
+  <div class="container">
+    <div class="testimonials-wrapper">
+      <div class="testimonial active" data-index="0">
+        <blockquote>"They didn't just build us a website — they built us a brand presence. The attention to detail was obsessive, in the best way possible."</blockquote>
+        <cite>— Local Business Owner, Wellington</cite>
+      </div>
+      <div class="testimonial" data-index="1">
+        <blockquote>"We went from having no online presence to getting enquiries within the first week. The ROI speaks for itself."</blockquote>
+        <cite>— Auto Workshop Owner, Lower Hutt</cite>
+      </div>
+      <div class="testimonial" data-index="2">
+        <blockquote>"Professional, fast, and they actually listen. Our site looks better than competitors charging ten times more."</blockquote>
+        <cite>— Café Owner, Petone</cite>
+      </div>
+      <div class="testimonial-dots">
+        <button class="dot active" data-index="0"></button>
+        <button class="dot" data-index="1"></button>
+        <button class="dot" data-index="2"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-content anim-up">
+      <h2>Ready to stand out?</h2>
+      <p>Let's build something that makes your competitors nervous.</p>
+      <a href="contact.html" class="btn btn-primary btn-lg">Start Your Project →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-logo">
+          <span class="nav-logo-icon">✦</span> WingfieldGemini
+        </div>
+        <p class="footer-tagline">Twin Wings: Two Paths, One Infinite Digital Destination.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="services.html">Web Design</a>
+        <a href="services.html">CRM Systems</a>
+        <a href="services.html">Hosting & Security</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Get in Touch</h4>
+        <a href="tel:+64272566620">+64 27 256 6620</a>
+        <a href="mailto:admin@wingfieldgemini.com">admin@wingfieldgemini.com</a>
+        <span>Wellington, New Zealand</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 WingfieldGemini. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
 </body>
 </html>
